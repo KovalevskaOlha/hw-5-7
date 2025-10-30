@@ -1,0 +1,81 @@
+/* Общий контейнер */
+.toDoList {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #2f2f2f;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e0e0e0;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+}
+
+.enterTask {
+  flex: 1;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #444;
+  color: #e0e0e0;
+  font-size: 16px;
+}
+
+.enterTask::placeholder {
+  color: #bbb;
+}
+
+.btnAdd {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #5f806b;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btnAdd:hover {
+  background-color: #888;
+}
+
+.taskList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.taskItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: #3a3a3a;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.taskItem:hover {
+  background-color: #4a4a4a;
+}
+
+.btnDelete {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #b22222;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.btnDelete:hover {
+  background-color: #e53939;
+}
