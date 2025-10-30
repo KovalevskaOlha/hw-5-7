@@ -79,3 +79,29 @@
 .btnDelete:hover {
   background-color: #e53939;
 }
+
+@media (max-width: 480px) {
+  .toDoList {
+    padding: 15px;
+  }
+
+  .form {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .enterTask,
+  .btnAdd {
+    width: 100%;
+  }
+
+  .taskItem {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .btnDelete {
+    align-self: flex-end;
+  }
+}
